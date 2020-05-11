@@ -1,0 +1,12 @@
+﻿icl: : warning #10182: disabling optimization; runtime debug checks enabled
+  task.cpp
+C:\Users\kaslon\Desktop\IPS\Task\Task_7_4\task.cpp(17): warning #3180: unrecognized OpenMP #pragma
+    #pragma omp parallel for num_threads(num_of_threads)
+    ^
+  
+C:\Users\kaslon\Desktop\IPS\Task\Task_7_4\task.cpp(23): warning #3180: unrecognized OpenMP #pragma
+    #pragma omp atomic
+    ^
+  
+task.obj : : error LNK2019: ссылка на неразрешенный внешний символ _omp_get_wtime в функции "double __cdecl par(void)" (?par@@YANXZ)
+C:\Users\kaslon\Desktop\IPS\Task\Task_7_4\Debug\Task.exe : : error LNK1120: неразрешенных внешних элементов: 1
